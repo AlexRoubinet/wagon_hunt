@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get  "/contact" => "pages#join_us"
 
 
-  ressources :products
+  resources :products
 
   # #read action routes
   # get "/products" => "products#index"
